@@ -1,0 +1,31 @@
+DICAS ÚTEIS E CURIOSIDADES
+
+
+1- Console Python > digite "Python" em um prompt
+
+2- No console python digite "import this" 
+    - Abre um ester eggs o poema de Tim Peters
+
+3- PEP - Propostas de aprimoramento do Python
+    - A ideia da PEP8 é que possamos escrever códigos Python de forma Pythônica
+
+    [1] - Utilize Camel Case para nomes de classes;
+    [2] - Utilize nomes em minusculo, separados por underline para funções ou variáveis
+    [3] - Utilize quatro espaços para identação!
+    [4] - Linhas em branco 
+        - Separar funções e definições de classe com duas linhas em branco;
+        - Métodos dentro de uma clase devem ser separados com uma única linha em branco;
+    [5] - Imports devem ser sempre feitos em linhas separadas;
+        - Imports sys
+        - from types imports StringType, ListType
+        - from types import {
+            StringType,
+            ListType,
+            SetType,
+            OutroType
+        }
+        - Devem ser colocados no topo do arquivio, logo depois de qualquer comentário ou docsstrings e antes de constantes ou variáveis globais
+    [6] - Epaços em expressões e instruções
+    [7] - Termine sempre uma instrução com uma nova linha
+        
+    
