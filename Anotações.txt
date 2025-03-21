@@ -1,5 +1,4 @@
-DICAS ÚTEIS E CURIOSIDADES
-
+ANOTAÇÕES, DICAS ÚTEIS E CURIOSIDADES
 
 1- Console Python > digite "Python" em um prompt
 
@@ -28,4 +27,90 @@ DICAS ÚTEIS E CURIOSIDADES
     [6] - Epaços em expressões e instruções
     [7] - Termine sempre uma instrução com uma nova linha
         
-    
+4- Entrar em um ambiente virtual de qualquer local
+    - Workon <nome do ambiente virtual>
+
+5- Utilitãrios Python para auxilio na programação
+
+    DIR: Apresenta todos os atributos/propriedades e funções/métodos disponíveis para determinado tipo de dado ou variável
+
+    HELP: Apresenta a documentação de como utilizar os atributos/propriedades e funções/métodos dispníveis para determinado tipo de dado ou variável
+
+6- Substituição de valores
+
+    ANTIGA
+        > %s é usado para substituir o valor de uma variável da versão 2.x do Python antiga
+            - print('A %s tem %s anos',%(nome, idade))
+
+    NOVA
+        > {} é usado em conjunto com o .format()
+            - print('A {0} tem {1} anos',.format(nome, idade))
+
+7- Exibir dados no log
+    - print(f'A {nome} tem {idade} anos ')
+    - print('A {nome} nasceu em {2018 -int(idade)}')
+
+8- Cast é a conversão de um tipo de dado para outro
+    - idade = input("qual sua idade")
+    - int(idade)
+
+9- INPUT(): Todo dado recebido via input é do tipo string
+
+10- Divisão para ter resultado como inteiro
+    - 5 // 2 = 2
+    - 5 / 2 = 2.5
+
+11- Resto - Resulta que resta após a Divisão
+    - 4 % 2 = 0
+    - 5 % 2 = 1
+
+12- Elevação - cálculos de elevado
+    - 3 ** 3 = 27
+    - 2 ** 8 = 256
+
+13- CTRL L para limpar o console python
+
+14- No python é possível separar o milhar de valor com underline
+    - 1_000_000_000
+
+15- Para adicionar um valor em na mesma variável
+    - num = 1
+    - num += 1 = num = 2
+
+16- TYPE(): para saber o tipo de dado de uma variável
+    - type(idade) = <class 'int'>
+
+17- Fazer negação de um valor,ou inversão do valor, utilize o "not"
+    - valor = True
+    - print(not valor)
+    - False
+
+18- Operadores de comparação em Python 
+    == Igual a
+    != Diferente de // ou Equivalente
+    > Maior que
+    < Menor que
+    >= Maior ou igual a
+    <= Menor ou igual a
+
+19- Trabalhando com string
+    - print(nome[0:4]) ele irá pegar as letas nas posições 0,1,2,3 e retornar como lista
+    - print(nome[0:15]) para acessar até a última letra de uma string por exemplo "Geek Univesity"
+    - print(nome[::-1]) Comece do primeiro elemento até o último e inverta
+        - texto = "socorram me subi no onibus em marrocos"
+        - print(texto[::-1]) 
+    - print(nome.replace('G', 'T')) realiza a substituição das letras G por T em Geek Univesity
+
+20- Estruturas condicionais
+    - Operadores unários
+        -- NOT, IS
+    - OPeradores binários
+        -- AND, OR
+
+21- IF e ELSE sempre consideram como verdareiros os valores
+    - if ativo and logado:
+        print('Bem Vindo Usuário')
+
+22- Diferença entre FOR e WHILE
+    - FOR = Quando se há um valor inícial e um ter conclusão/termino
+    - WHILE = Quando a repetição depende de uma condição para ser concluída por exemplo usando >=, <=, !=
