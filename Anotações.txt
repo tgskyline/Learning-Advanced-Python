@@ -114,3 +114,24 @@ ANOTAÇÕES, DICAS ÚTEIS E CURIOSIDADES
 22- Diferença entre FOR e WHILE
     - FOR = Quando se há um valor inícial e um ter conclusão/termino
     - WHILE = Quando a repetição depende de uma condição para ser concluída por exemplo usando >=, <=, !=
+
+23- Com "extend()" eu consigo inserir mais de uma valor em uma lista ao mesmo tempo
+
+24- Acessando valores de dicionário com GET que é a forma recomendada
+    - print(paises.get('br'))
+    - print(paises.get('ru'))
+    - Ao buscar um chave que não exista ele não irá retornar erro, mas sim a string 'None'
+    - Podemos usar o get para buscar um valor e se não encontrado inserir outro <paises=paises.get('ru','Não encontrado')>
+
+25- Tipo 'None' no Python sempre será falso
+
+26- Formas de se adicionar valores em dicioários
+    - Mais comum = receita['abril']=350
+    - Forma 2
+        - novo_dado ={'maio':500}
+        - receita.update(novo_dado)
+
+27- Formas de remover dados chave:valor de um dicionário
+    - rem = receita.pop('mar') # ele remove e retorna o valor 
+    - del receita['fev'] # se a chave não existir retornará "Key ERROR"
+
