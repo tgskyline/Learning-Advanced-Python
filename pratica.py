@@ -51,8 +51,12 @@ Exercício 5
 #     n -= 1
 # print("FIM!")
 
-resposta = ''
-while resposta != 'não':
-    resposta = input('\nDeseja continuar? (sim/não) ')
-    
-    
+# resposta = ''
+# while resposta != 'não':
+#     resposta = input('\nDeseja continuar? (sim/não) ')
+
+# usuario = {}.fromkeys(["nome", "ponto", "email", "profile"], "desconhecido")
+# print(usuario)
+
+conjunto = {1, 2, 3, 4, 5}
+help(conjunto)

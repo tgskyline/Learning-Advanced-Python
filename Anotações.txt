@@ -135,3 +135,14 @@ ANOTAÇÕES, DICAS ÚTEIS E CURIOSIDADES
     - rem = receita.pop('mar') # ele remove e retorna o valor 
     - del receita['fev'] # se a chave não existir retornará "Key ERROR"
 
+28- Criando chaves de dicionário e inserindo valro default
+    - usuario = {}.fromkeys(['nome', 'ponto', 'email', 'profile'], 'desconhecido')
+    - resultado
+        {'nome': 'desconhecido', 'ponto': 'desconhecido', 'email': 'desconhecido', 'profile': 'desconhecido'}
+
+29- Conjuntos de dados e suas caracteristicas;
+    - Não possuem valores duplicados
+    - Não possuem valores ordenados
+    - Elementos de conjunto não são indexados
+    -Utilidade
+        - Útil para ser utilizado para armazenar itens, de todos os tipos, sem ordenação , duplicidades ou indexação
