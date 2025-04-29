@@ -58,5 +58,15 @@ Exercício 5
 # usuario = {}.fromkeys(["nome", "ponto", "email", "profile"], "desconhecido")
 # print(usuario)
 
-conjunto = {1, 2, 3, 4, 5}
-help(conjunto)
+# nome = "Tiago Gomes"
+# print(nome[::-1])
+
+# conjunto = {1, 2, 3, 4, 5}
+# help(conjunto)
+
+from collections import Counter
+
+lista = (1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,1,1,1,2,2,2,3,3,3,3,4,4,4,4,5,5,5,5,5,6,6,6,6,7,7,7,7,8,8,8,8,9,9,9,9,10,10,10,10)
+res = Counter(lista)
+print(res)
+print(res.get(1))

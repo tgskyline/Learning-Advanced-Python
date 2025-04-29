@@ -146,3 +146,18 @@ ANOTAÇÕES, DICAS ÚTEIS E CURIOSIDADES
     - Elementos de conjunto não são indexados
     -Utilidade
         - Útil para ser utilizado para armazenar itens, de todos os tipos, sem ordenação , duplicidades ou indexação
+
+30- O Counter importado como "from collections import Counter", forncece um objeto aonde sua chave é o elemento da contagem e o valor o número de vezes que foi encontrado 
+    - exemplo   
+        - lista = (1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,1,1,1,2,2,2,3,3,3,3,4,4,4,4,5,5,5,5,5,6,6,6,6,7,7,7,7,8,8,8,8,9,9,9,9,10,10,10,10)
+        - res = Counter(lista)
+        - print(res)
+        - print(res.get(1))
+
+31- Toda função que tiver 'return' pode ser utilizada diretamente em lógicas e equações
+    - exemplo
+        from random import random
+        if random() > 0.5:
+            return true
+        return false
+
