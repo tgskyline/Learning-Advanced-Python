@@ -161,3 +161,8 @@ ANOTAÇÕES, DICAS ÚTEIS E CURIOSIDADES
             return true
         return false
 
+32- Diferença entre parametros e argumentos
+    - Paramentros é o nome dado a dados que são necessários para o processamento da função
+    - Argumentos é nome dado ao dados inseridos no uso da função 
+
+33- Para uma função ter o uso de argumentos fora de ordem é necessário usar argumentos nomeados ou Kerword Argumentos
