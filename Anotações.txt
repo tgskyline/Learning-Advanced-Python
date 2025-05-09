@@ -166,3 +166,23 @@ ANOTAÇÕES, DICAS ÚTEIS E CURIOSIDADES
     - Argumentos é nome dado ao dados inseridos no uso da função 
 
 33- Para uma função ter o uso de argumentos fora de ordem é necessário usar argumentos nomeados ou Kerword Argumentos
+
+34- Em funções Python, os parametros default/padrão devem sempre estar ao final da declaração
+
+35- Para utilizar uma variável declarada foram da função dentro dela podemos usar o "global"
+    - exemplo   
+        total = 0
+        def soma():
+            global total
+            total += 1
+            return total
+
+36- Para informar uma vairiável de uma função que esteja dentro de outra função podemos usar o  "nonlocal"
+    - exemplo
+        def fora():
+            contador = 0
+            def dentro():
+                nonlocal contador
+                contador += 1
+                return contador
+            return dentro()
