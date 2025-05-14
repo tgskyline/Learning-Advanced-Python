@@ -212,3 +212,14 @@ elemento da contagem e o valor o número de vezes que foi encontrado
 39- **kwargs Poderiámos chamar este parametro de **xis, mas por conveção chamamos de **kwargs
         Este é só mais um parâmetro, mas diferente do *args que coloca os valores extras em um tupla, 
         o **kwargs que coloca os valores extras em uma tupla, o **kwargs exige que utilizemos parâmetros nomeados, e transforma esses parâmetros extras em um dicionário
+
+40- Ordens dos parametros em funçoes é [Obrigatórios, *args, Default, **kwargs]
+
+41- Desempacotar **kwargs
+       Exemplo:
+        def mostra_nomes(**kwargs):
+            return f"{kwargs['nome']} {lwargs['sobrenome']}"
+
+
+        nomes = {'nome':'Felicity', 'sobrenome':'Jones'}
+        print(mostra_nomes(**nome))
