@@ -82,14 +82,19 @@ Exercício 5
 # print(soma())
 # print(soma())
 
-def fora():
-    contador = 0
-    def dentro():
-        nonlocal contador
-        contador += 1
-        return contador
-    return dentro()
+# def fora():
+#     contador = 0
 
-print(fora())
-print(fora())
-print(fora())
+#     def dentro():
+#         nonlocal contador
+#         contador += 1
+#         return contador
+
+#     return dentro()
+
+# print(fora())
+# print(fora())
+# print(fora())
+
+amigos = ['maria', 'joão','carlos']
+print([amigo[0].upper()+amigo[1:10000] for amigo in amigos ])

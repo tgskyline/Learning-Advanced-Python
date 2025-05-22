@@ -218,8 +218,18 @@ elemento da contagem e o valor o número de vezes que foi encontrado
 41- Desempacotar **kwargs
        Exemplo:
         def mostra_nomes(**kwargs):
-            return f"{kwargs['nome']} {lwargs['sobrenome']}"
+            return f"{kwargs['nome']} {kwargs['sobrenome']}"
 
 
         nomes = {'nome':'Felicity', 'sobrenome':'Jones'}
         print(mostra_nomes(**nome))
+
+42- List Comprehinsion nós podemos gerar novas listas com dados processados a partir de outro iterável
+    Sintaxe da List Comprehension
+        [DADO for DADO in INTERAVEL]
+
+        Exemplos
+            numeros = [1,2,3,4,5]
+            res = [numero * 10 for numero in numeros]
+            print(res)
+
