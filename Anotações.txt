@@ -233,3 +233,6 @@ elemento da contagem e o valor o número de vezes que foi encontrado
             res = [numero * 10 for numero in numeros]
             print(res)
 
+43- Valores considerados como TRUE ou FALSE
+    True = True, 1, 3.14, "abc", ['abc', 123]
+    False = False, 0, [], '', ""
