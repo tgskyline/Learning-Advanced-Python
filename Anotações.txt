@@ -236,3 +236,39 @@ elemento da contagem e o valor o número de vezes que foi encontrado
 43- Valores considerados como TRUE ou FALSE
     True = True, 1, 3.14, "abc", ['abc', 123]
     False = False, 0, [], '', ""
+
+44- Listas Aninhadas (Nested Lists)
+    Algumas linguagens de programação (C / Java) possuem uma estrutura de dados chamadas de arrays:
+        - Unidimensionais (Arrays/Vetores);
+        - Multidimesionais (Matrizes);
+
+    Em Python nos temos as listas
+
+    Exemplos:
+
+    listas = [[1,2,3], [4,5,6], [7,8,9]] #Matriz 3x3
+
+45- Dictionary Comprehensions
+    Sintaxe 
+        {CHAVE:VALOR for CHAVE, VALOR in INTERAVEL.items()}
+
+    Exemplos
+        numeros={'a':1,'b':2,'c':3,'d':4,'e':5}
+        quadrado= {chave: valor **2 for chave, valor in numeros.items()}
+        print(quadrado)
+
+        chaves= 'abcde'
+        numeros= [1,2,3,4,5]
+        mistura= {chaves[i]: numeros[i] for i in range(0, len(chaves))}
+        print(mistura)  
+
+        numeros = [1, 2, 3, 4, 5]
+        res ={num:('par' if num % 2 == 0 else 'impar') for num in numeros}
+        print(res)
+
+
+
+
+
+    
+
