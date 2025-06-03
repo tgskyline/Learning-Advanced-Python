@@ -266,6 +266,24 @@ elemento da contagem e o valor o número de vezes que foi encontrado
         res ={num:('par' if num % 2 == 0 else 'impar') for num in numeros}
         print(res)
 
+46- Expressões Lambdas, funções sem nome ou anônimas
+    Muito utilizada para fazer filtragens
+
+    Exemplos:
+    # Função comum
+    def funcao(x):
+        return 3 * x + 1
+
+    # Função Lambda
+    lambda x: 3 * x + 1
+
+    # Utilização
+    calc = lambda x: 3 * x + 1
+
+    print(calc(4))
+    print(calc(7))
+
+
 
 
 

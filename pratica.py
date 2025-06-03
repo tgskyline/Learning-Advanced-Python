@@ -113,8 +113,21 @@ Exercício 5
 
 # print(mistura)
 
-numeros = [1, 2, 3, 4, 5]
+# numeros = [1, 2, 3, 4, 5]
 
-res ={num:('par' if num % 2 == 0 else 'impar') for num in numeros}
+# res ={num:('par' if num % 2 == 0 else 'impar') for num in numeros}
 
-print(res)
+# print(res)
+
+# Função comum
+def funcao(x):
+    return 3 * x + 1
+
+# Função Lambda
+lambda x: 3 * x + 1
+
+# Utilização
+calc = lambda x: 3 * x + 1
+
+print(calc(4))
+print(calc(7))
